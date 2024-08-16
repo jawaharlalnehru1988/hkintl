@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    ul {
+      list-style: none;
+      display: flex;
+  
+      li {
+        margin-right: 20px;
+  
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+
+  .logo-image{
+    width: 28px;
+  }

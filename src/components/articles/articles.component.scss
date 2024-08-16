@@ -1,0 +1,169 @@
+
+// Variables
+$primary-color: #3498DB;
+$secondary-color: #2ECC71;
+$background-color: #F9F9F9;
+$text-color: #333;
+
+// Global Styles
+body {
+    font-family: Arial, sans-serif;
+    color: $text-color;
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+    h1 {
+        margin: 0;
+        font-size: 1.8em;
+    }
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+
+    h2 {
+        color: $primary-color;
+        border-bottom: 2px solid $primary-color;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+    ul, ol {
+        margin: 10px 0;
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+footer {
+    background-color: $secondary-color;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+article {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    h1 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+// Variables
+$primary-color: #4A90E2;
+$secondary-color: #F5A623;
+$background-color: #F5F5F5;
+$text-color: #333;
+
+// Global Styles
+body {
+    font-family: Arial, sans-serif;
+    color: $text-color;
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+    h1 {
+        margin: 0;
+    }
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+
+    h2 {
+        color: $primary-color;
+        border-bottom: 2px solid $primary-color;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+    ul, ol {
+        margin: 10px 0;
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+footer {
+    background-color: $secondary-color;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.flex-section{
+    display: flex;
+}

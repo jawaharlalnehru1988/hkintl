@@ -3,7 +3,7 @@
   }
   
   .sidebar {
-    background-color: #f0f0f0;
+    background-color: #4a90e2;
     width: 200px;
     padding: 20px;
   
@@ -16,13 +16,17 @@
   
         a {
           text-decoration: none;
-          color: #333;
+          color: #fffbfb;
           cursor: pointer;
+          font-weight: 700;
         }
       }
     }
   }
   
+  li:hover{
+    background-color: #073e7c;
+  }
   .content {
     flex-grow: 1;
     padding: 20px;

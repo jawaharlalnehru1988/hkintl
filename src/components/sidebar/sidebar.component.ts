@@ -10,5 +10,10 @@ import { RouterModule } from '@angular/router';
   styleUrl: './sidebar.component.scss'
 })
 export class SidebarComponent {
-
+  navigationItems = [
+    { label: 'Articles', route: '/article' },
+    { label: 'Audios', route: '/audio' },
+    { label: 'Videos', route: '/video' },
+    { label: 'Lectures', route: '/lecture' },
+  ];
 }

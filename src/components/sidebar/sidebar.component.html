@@ -1,16 +1,15 @@
 <div class="container">
     <aside class="sidebar">
-      <ul>
-        <li><a routerLink="/article" routerLinkActive="active">Articles</a></li>
-        <li><a routerLink="/audio" routerLinkActive="active">Audios</a></li>
-        <li><a routerLink="/video" routerLinkActive="active">Videos</a></li>
-        <li><a routerLink="/lecture" routerLinkActive="active">Lectures</a></li>
-        <!-- <li><a href="#">Tutorials</a></li>
-        <li><a href="#">Yatras</a></li>
-        <li><a href="#">Discussions</a></li>
-        <li><a href="#">Join us</a></li>
-        <li><a href="#">Medias</a></li> -->
-      </ul>
+      <div class="vertical-buttons"  *ngFor="let item of navigationItems">
+        <div class="mb-2">
+          <button type="button" class="btn btn-warning fw-bold" [routerLink]="item.route"
+          routerLinkActive="active"
+          >
+           {{ item.label }}
+        </button>
+      </div>
+      </div>
+      
     </aside>
   </div>
-  <!-- <router-outlet></router-outlet> -->
+ 

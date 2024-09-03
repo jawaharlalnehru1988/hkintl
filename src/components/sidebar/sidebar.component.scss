@@ -5,30 +5,21 @@
   .sidebar {
     background-color: #4a90e2;
     width: 200px;
-    padding: 20px;
-  
-    ul {
-      list-style: none;
-      padding: 0;
-  
-      li {
-        margin-bottom: 10px;
-  
-        a {
-          text-decoration: none;
-          color: #fffbfb;
-          cursor: pointer;
-          font-weight: 700;
-        }
-      }
-    }
+    padding: 4px;
   }
   
-  li:hover{
-    background-color: #073e7c;
-  }
   .content {
     flex-grow: 1;
     padding: 20px;
   }
   
+
+  button {
+    width: -webkit-fill-available;
+  }
+
+.vertical-buttons button.active {
+  background-color: #cef562; /* Your desired active color */
+  color: #3a0404; /* Text color for active button */
+
+}

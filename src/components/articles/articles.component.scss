@@ -1,169 +1,188 @@
 
-// Variables
-$primary-color: #3498DB;
-$secondary-color: #2ECC71;
-$background-color: #F9F9F9;
-$text-color: #333;
-
-// Global Styles
-body {
-    font-family: Arial, sans-serif;
-    color: $text-color;
-    background-color: $background-color;
-    margin: 0;
-    padding: 0;
+h1{
+      font-size: 50px; 
+      font-weight: strong;
+     text-align: center;
+      color: white; 
+      background-color: #160101;
+      padding: 10px;
+      margin: 20px;
 }
-
-header {
-    background-color: $primary-color;
-    color: white;
-    padding: 20px;
+h2{
+    font-size: 35px; 
+    font-weight: strong;
     text-align: center;
-    
-    h1 {
-        margin: 0;
-        font-size: 1.8em;
-    }
-}
-
-section {
-    padding: 20px;
-    margin: 10px;
-
-    h2 {
-        color: $primary-color;
-        border-bottom: 2px solid $primary-color;
-        padding-bottom: 10px;
-        margin-bottom: 20px;
-    }
-
-    p {
-        line-height: 1.6;
-    }
-
-    ul, ol {
-        margin: 10px 0;
-        padding-left: 20px;
-    }
-
-    li {
-        margin-bottom: 10px;
-    }
-}
-
-footer {
-    background-color: $secondary-color;
-    color: white;
-    text-align: center;
+    color: rgb(10, 5, 82); 
+    background-color:bisque; 
     padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-
-    a {
-        color: white;
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
+    margin: 20px;
 }
-article {
-    width: 80%;
+.one{
+    text-align: center;
+    font-weight: strong;
+    font-size: 20px;
+}
+.author{
+    font-size: x-large;
+    font-weight: 900;
+    background-color: antiquewhite;
+    text-align: center;
+    color: navy;
+}
+.author1{
+    font-size: x-large;
+    font-weight: 900;
+    background-color: rgb(211, 190, 162);
+    text-align: center;
+    color: rgb(7, 56, 3);
+}
+.peaceful{
+    float: left; 
+    margin: 20px;
+}
+img:hover{
+    transform: scale(0.9)
+    
+}
+.two{
+    
+    color: maroon;
+    margin: 20px;
+    background: #ffffc8;
+    font-weight: 500;
+}
+.three{
+    color: maroon;
+    margin: 20px;
+    background-color: antiquewhite;
+
+}
+.four{
+    color: rgb(6, 4, 88);
+    margin: 20px;
+    background-color: #ffffc8;
+
+}
+.five{
+    text-align: center;
+    margin: 20px;
+}
+.krish{
+    float: right; 
+    margin: 20px;
+    width: 200px;
+    height:300px;
+}
+.six{
+    color: maroon;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+.seven{
+    color:darkgreen;
+    margin: 20px;
+    background-color: burlywood;
+}
+.eight{
+    color: rgb(6, 4, 88);
+    margin: 20px;
+    background-color: #ffffc8;
+}
+.nine{
+    color: maroon;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+.ten{
+    color: rgb(6, 4, 88);
+    margin: 20px;
+    background-color:rgb(226, 190, 91);
+    text-align: center;
+    font-weight: 400;
+    font-size: xx-large;
+}
+.mantra{
+    float: right; 
+    margin: 20px;
+    width: 400px;
+    height:300px; 
+}
+.mantra1{
+    float: left; 
+    margin: 20px;
+    width: 400px;
+    height:300px; 
+}
+.mantra2{
+    float: right; 
+    margin: 20px;
+    width: 500px;
+    height:150px; 
+}
+
+button {
+    background-color: lightblue;
+    text-align: right;
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button {
+    background-color: lightblue;
+    text-align: right;
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.vinoth{
+    float: right;
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+}
+.bg{
+    float: left;
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+}
+.london{
+    float: right;
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+}
+.bakthi{
+    float: left;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+}
+.london1{
+    float: right;
+    margin: 20px;
+    width: 300;
+    height: 450px;
+}
+/* app.component.css */
+.paginator-container {
+    width: 60%;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-
-    h1 {
-        font-size: 28px;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-
-    p {
-        font-size: 16px;
-        line-height: 1.5;
-        margin-bottom: 10px;
-    }
-
-    img {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
-
-// Variables
-$primary-color: #4A90E2;
-$secondary-color: #F5A623;
-$background-color: #F5F5F5;
-$text-color: #333;
-
-// Global Styles
-body {
-    font-family: Arial, sans-serif;
-    color: $text-color;
-    background-color: $background-color;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: $primary-color;
-    color: white;
-    padding: 20px;
     text-align: center;
-    
-    h1 {
-        margin: 0;
-    }
-}
-
-section {
-    padding: 20px;
-    margin: 10px;
-
-    h2 {
-        color: $primary-color;
-        border-bottom: 2px solid $primary-color;
-        padding-bottom: 10px;
-        margin-bottom: 20px;
-    }
-
-    p {
-        line-height: 1.6;
-    }
-
-    ul, ol {
-        margin: 10px 0;
-        padding-left: 20px;
-    }
-
-    li {
-        margin-bottom: 10px;
-    }
-}
-
-footer {
-    background-color: $secondary-color;
-    color: white;
-    text-align: center;
+  }
+  
+  .pagination-controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 5px;
     padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-
-    a {
-        color: white;
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-}
-
-.flex-section{
-    display: flex;
-}
+    font-size: 16px;
+    cursor: pointer;
+  }

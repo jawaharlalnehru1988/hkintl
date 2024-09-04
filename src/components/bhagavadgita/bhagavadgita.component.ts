@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './bhagavadgita.component.scss'
 })
 export class BhagavadgitaComponent {
-
+  item:string = "Hare krishna";
 }

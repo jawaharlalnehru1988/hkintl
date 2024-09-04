@@ -6,6 +6,9 @@ import { ArticlesComponent } from '../components/articles/articles.component';
 import { AudioComponent } from '../components/audio/audio.component';
 import { VideoComponent } from '../components/video/video.component';
 import { LectureComponent } from '../components/lecture/lecture.component';
+import { BhagavadgitaComponent } from '../components/bhagavadgita/bhagavadgita.component';
+
+
 
 export const routes: Routes = [
     {
@@ -18,6 +21,8 @@ export const routes: Routes = [
             { path: 'audio', component: AudioComponent },
             { path: 'video', component: VideoComponent },
             { path: 'lecture', component: LectureComponent },
+            { path: 'bhagavadgita', component: BhagavadgitaComponent}
+          
         ]
     }
 ];

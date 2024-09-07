@@ -1,0 +1,134 @@
+h1{
+    font-size: 50px; 
+    font-weight: strong;
+   text-align: center;
+    color: white; 
+    background-color: #160101;
+    padding: 20px;
+    margin: 20px;
+}
+h2{
+  font-size: 40px; 
+  font-weight: strong;
+  text-align: center;
+  color: white; 
+  background-color:rgb(1, 1, 44); 
+  padding: 20px;
+  margin: 20px;
+}
+.one{
+    background-color: #05154b;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.two{
+    background-color: #bfc7e4;
+    color: rgb(43, 1, 1);
+    font-size: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+.three{
+    
+        color: maroon;
+        margin: 20px;
+        padding: 20px;
+        background: #ffffc8;
+        font-weight: 15px;
+}
+.four{
+    color: rgb(1, 31, 17);
+    margin: 20px;
+    padding: 20px;
+    background: #f7f7e1;
+    font-weight: 15px;
+}
+.five{
+    color: rgb(31, 1, 13);
+    margin: 20px;
+    padding: 20px;
+    background: #f5e1f7;
+    font-weight: 15px;
+}
+.six{
+    color: rgb(33, 5, 99);
+    margin: 20px;
+    padding: 20px;
+    background: #c8ecd4;
+    font-weight: 15px;
+}
+.seven{
+    color: rgb(1, 27, 66);
+    margin: 20px;
+    padding: 20px;
+    background: #eaf5cc;
+    font-weight: 15px;
+}
+.eight{
+    color: rgb(34, 41, 1);
+    margin: 20px;
+    padding: 20px;
+    background: #d2d4d8;
+    font-weight: 15px;
+}
+.nine{
+    color: rgb(22, 1, 1);
+    margin: 20px;
+    padding: 20px;
+    background: #eee7c7;
+    font-weight: 15px;
+}
+.ten{
+    color: rgb(31, 0, 16);
+    margin: 20px;
+    padding: 20px;
+    background: #edf7ce;
+    font-weight: 15px;
+}
+.mantra{
+    padding: 20px;
+    margin: 40px;
+    
+}
+// .mantra1 {
+//     padding: 20px;
+//     margin: 0 auto; /* Centers horizontally */
+//     display: flex;
+//     justify-content: center; /* Centers horizontally in flexbox */
+//     align-items: center; /* Centers vertically in flexbox */
+//     width: 600px;
+//     height: 600px;
+// }
+.mantra1{
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 500px;;
+    height: 500px;;
+    display: flexbox;
+    
+}
+.text-center {
+    background-color: #cea1a1; /* Set the same background color for all */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center align the text */
+}
+
+/* Different font sizes for each paragraph */
+.text-center.p1 { font-size: 26px; } /* First paragraph */
+.text-center.p2 { font-size: 18px; } /* Second paragraph */
+.text-center.p3 { font-size: 18px; } /* Third paragraph */
+.text-center.p4 { font-size: 22px; } /* Fourth paragraph */
+.text-center.p5 { font-size: 18px; } /* Fifth paragraph */
+.text-center.p6 { font-size: 20px; } /* Sixth paragraph */
+.text-center.p7 { font-size: 24px; } /* Seventh paragraph */
+.text-center.p8 { font-size: 18px; } /* Eighth paragraph */
+
+
+
+

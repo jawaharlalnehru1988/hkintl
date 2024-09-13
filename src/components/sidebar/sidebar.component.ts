@@ -16,5 +16,6 @@ export class SidebarComponent {
     { label: 'Videos', route: '/video' },
     { label: 'Lectures', route: '/lecture' },
     { label: 'Bhagavad Gita', route: '/bhagavadgita' },
+    { label: 'Ekadasi Glorious', route: '/ekadasi' }
   ];
 }

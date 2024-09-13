@@ -1,0 +1,244 @@
+.ekadasi{
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 700px;;
+    height: 500px;;
+    display: flexbox;
+}
+h1{
+    text-align: center;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius:  10px;
+}
+h3{
+    text-align: center;
+    background-color: rgb(21, 1, 53);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+    padding: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.content-box {
+    background-color: #f0e5d6; /* Light background color */
+    color: #333333; /* Text color */
+    padding: 20px; /* Padding inside the box */
+    margin: 20px; /* Margin around the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    line-height: 1.8; /* Line height for readability */
+    max-width: 600px; /* Set a max width for the box */
+}
+
+.content-box p {
+    text-align: left; /* Align the text to the left */
+    margin: 10px 0; /* Margin between paragraphs */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.list-container {
+    background-color: #fff8e1; /* Light yellow background */
+    padding: 20px; /* Padding around the content */
+    margin: 20px auto; /* Center the list on the page */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    max-width: 800px; /* Limit the width of the list container */
+    border: 1px solid #e0e0e0; /* Optional border */
+}
+
+.custom-list {
+    padding-left: 20px; /* Space between numbers and content */
+    color: #333; /* Dark text color */
+    line-height: 1.6; /* Adjust line height for better readability */
+}
+
+.custom-list li {
+    margin-bottom: 10px; /* Space between list items */
+    font-size: 16px; /* Font size for list items */
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #d32f2f; /* Heading color */
+    margin-bottom: 20px;
+}
+.sith{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+    padding: 10px;
+}
+img:hover{
+    transform: scale(0.9)
+}
+.one {
+    background-color: #d8bfd8; /* Light purple background */
+    color: #4b0082; /* Dark indigo font color */
+    margin: 20px; /* Margin around the paragraph */
+    padding: 20px; /* Padding inside the paragraph */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    text-indent: 30px; /* 5 spaces (approximately 30px) for the first line */
+    line-height: 1.6; /* Line height for better readability */
+}
+.two {
+    background-color: #d8bfc2; /* Light purple background */
+    color: #020082; /* Dark indigo font color */
+    margin: 20px; /* Margin around the paragraph */
+    padding: 20px; /* Padding inside the paragraph */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    text-indent: 30px; /* 5 spaces (approximately 30px) for the first line */
+    line-height: 1.6; /* Line height for better readability */
+}
+.three{
+    background-color: #ece0e1; /* Light purple background */
+    color: #021f36; /* Dark indigo font color */
+    margin: 20px; /* Margin around the paragraph */
+    padding: 20px; /* Padding inside the paragraph */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    text-indent: 30px; /* 5 spaces (approximately 30px) for the first line */
+    line-height: 1.6; /* Line height for better readability */
+} 
+.four{
+    background-color:#d6aeae;
+    color: #160101; /* Dark indigo font color */
+    margin: 20px; /* Margin around the paragraph */
+    padding: 20px; /* Padding inside the paragraph */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    text-indent: 30px; /* 5 spaces (approximately 30px) for the first line */
+    line-height: 1.6; /* Line height for better readability */
+}
+h5{
+    text-align: left;
+    font-size: 24px;
+    color: #3808bb; /* Heading color */
+    margin-bottom: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.five{
+    background-color:#d3dfc0;
+    color: #160101; /* Dark indigo font color */
+    margin: 20px; /* Margin around the paragraph */
+    padding: 20px; /* Padding inside the paragraph */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    text-indent: 30px; /* 5 spaces (approximately 30px) for the first line */
+    line-height: 1.6; /* Line height for better readability */
+}
+.six{
+    background-color:#b2e0cd;
+    color: #160101; /* Dark indigo font color */
+    margin: 20px; /* Margin around the paragraph */
+    padding: 20px; /* Padding inside the paragraph */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    text-indent: 30px; /* 5 spaces (approximately 30px) for the first line */
+    line-height: 1.6; /* Line height for better readability */
+}
+.seven{
+    background-color:#e0d5b2;
+    color: #160101; /* Dark indigo font color */
+    margin: 20px; /* Margin around the paragraph */
+    padding: 20px; /* Padding inside the paragraph */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    text-indent: 30px; /* 5 spaces (approximately 30px) for the first line */
+    line-height: 1.6; /* Line height for better readability */
+}
+.eight{
+    background-color:#b6db8b;
+    color: #160101; /* Dark indigo font color */
+    margin: 20px; /* Margin around the paragraph */
+    padding: 20px; /* Padding inside the paragraph */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    text-indent: 30px; /* 5 spaces (approximately 30px) for the first line */
+    line-height: 1.6; /* Line height for better readability */
+}
+.nine{
+    background-color:#b6c9f1;
+    color: #160101; /* Dark indigo font color */
+    margin: 20px; /* Margin around the paragraph */
+    padding: 20px; /* Padding inside the paragraph */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    text-indent: 30px; /* 5 spaces (approximately 30px) for the first line */
+    line-height: 1.6; /* Line height for better readability */
+}
+.sh{
+    // background-color: #d6aeae; /* Set the background color */
+    margin: 20px; /* Add margin around the paragraph */
+    padding: 15px; /* Add padding inside the paragraph */
+    text-align: center; /* Text alignment (can be center or right if needed) */
+    font-size: 18px; /* Adjust font size if necessary */
+    border-radius: 8px; /* Optional: Adds rounded corners for a nicer look */
+    line-height: 1.6; /* Line spacing for readability */
+    color: #160101;
+
+}
+.ten{
+    background-color:#b6eaf1;
+    color: #160101; /* Dark indigo font color */
+    margin: 20px; /* Margin around the paragraph */
+    padding: 20px; /* Padding inside the paragraph */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    text-indent: 30px; /* 5 spaces (approximately 30px) for the first line */
+    line-height: 1.6; /* Line height for better readability */
+}
+// .text-center1 {
+//     //background-color: #d6aeae; /* Set the background color */
+//     margin: 20px; /* Add margin around the paragraph */
+//     padding: 15px; /* Add padding inside the paragraph */
+//     text-align: left; /* Text alignment (can be center or right if needed) */
+//     font-size: 18px; /* Adjust font size if necessary */
+//     border-radius: 8px; /* Optional: Adds rounded corners for a nicer look */
+//     line-height: 1.6; /* Line spacing for readability */
+//     color: #160101;
+
+// }
+.style-box {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; /* Add space inside the box */
+    margin: 15px ; /* Add space outside the box */
+    border: 2px solid black; /* black border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    font-size: 16px; /* Adjust text size */
+    color: #333; /* Text color */
+}

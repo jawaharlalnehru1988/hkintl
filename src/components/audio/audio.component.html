@@ -1,1 +1,45 @@
-<p>audio works!</p>
+<div class="d-flex gap-3 justify-content-center">
+    <p-card header="Advanced Card" subheader="Card Subheader" [style]="{ width: '360px' }" (click)="goToAudio()">
+        <ng-template pTemplate="header">
+            <img src="../../assets/image/bgaudio.png" alt="Google Drive Image">
+        </ng-template>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+            quas!
+        </p>
+        <ng-template pTemplate="footer">
+            <div class="flex gap-3 mt-1">
+                <p-button label="Cancel" severity="secondary" class="w-full" styleClass="w-full" />
+                <p-button label="Save" class="w-full" styleClass="w-full" />
+            </div>
+        </ng-template>
+    </p-card>
+    <p-card header="Advanced Card" subheader="Card Subheader" [style]="{ width: '360px' }">
+        <ng-template pTemplate="header">
+            <img src="../../assets/image/bgaudio.png" alt="Google Drive Image">
+        </ng-template>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+            quas!
+        </p>
+        <ng-template pTemplate="footer">
+            <div class="flex gap-3 mt-1">
+                <p-button label="Cancel" severity="secondary" class="w-full" styleClass="w-full" />
+                <p-button label="Save" class="w-full" styleClass="w-full" />
+            </div>
+        </ng-template>
+    </p-card>
+</div>
+
+
+<div *ngIf="bgaudio">
+    
+    <div class="bg"><iframe src="https://audio.com/embed/audio/1810152214451107?theme=image"
+        style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+    
+    </div>
+
+
+
+
+

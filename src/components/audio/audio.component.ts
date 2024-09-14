@@ -12,8 +12,17 @@ import { CardModule } from 'primeng/card';
   styleUrl: './audio.component.scss'
 })
 export class AudioComponent {
-  bgaudio: boolean = false;
-  goToAudio(){
-    this.bgaudio = true;
+ 
+  viewMode!: number;
+  audioData = [
+    {id: 1, header: 'ஶ்ரீமத் பகவத்கீதை', subheader: 'தமிழில் ஆடியோ!', image: '../../assets/image/bgaudio.png', content: 'ஸ்ரீமத் பகவத் கீதை சமஸ்கிருத ஸ்லோகம் மற்றும் அதனுடைய தமிழ் மொழிபெயர்ப்பு என இரண்டையும் இந்த ஆடியோ பதிவில் கொடுத்துள்ளோம். தினமும் கேட்டு பகவானின் ஞானத்தை பெறுங்கள்'},
+    {id: 2, header: 'upanyasam', subheader: 'தமிழில் ஆடியோ!', image: '../../assets/image/bgaudio.png', content: 'ஸ்ரீமத் பகவத் கீதை சமஸ்கிருத ஸ்லோகம் மற்றும் அதனுடைய தமிழ் மொழிபெயர்ப்பு என இரண்டையும் இந்த ஆடியோ பதிவில் கொடுத்துள்ளோம். தினமும் கேட்டு பகவானின் ஞானத்தை பெறுங்கள்'},
+    {id: 3, header: 'kirtanam', subheader: 'தமிழில் ஆடியோ!', image: '../../assets/image/bgaudio.png', content: 'ஸ்ரீமத் பகவத் கீதை சமஸ்கிருத ஸ்லோகம் மற்றும் அதனுடைய தமிழ் மொழிபெயர்ப்பு என இரண்டையும் இந்த ஆடியோ பதிவில் கொடுத்துள்ளோம். தினமும் கேட்டு பகவானின் ஞானத்தை பெறுங்கள்'},
+    {id: 4, header: 'Arati songs', subheader: 'தமிழில் ஆடியோ!', image: '../../assets/image/bgaudio.png', content: 'ஸ்ரீமத் பகவத் கீதை சமஸ்கிருத ஸ்லோகம் மற்றும் அதனுடைய தமிழ் மொழிபெயர்ப்பு என இரண்டையும் இந்த ஆடியோ பதிவில் கொடுத்துள்ளோம். தினமும் கேட்டு பகவானின் ஞானத்தை பெறுங்கள்'},
+  ]
+
+
+  goToAudio(id:number){
+    this.viewMode = id;
   }
 }

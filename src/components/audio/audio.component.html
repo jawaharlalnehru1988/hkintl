@@ -1,1 +1,153 @@
-<p>audio works!</p>
+<div class="d-flex gap-3 justify-content-center">
+    <p-card header="ஶ்ரீமத் பகவத்கீதை" subheader="தமிழில் ஆடியோ!" [style]="{ width: '360px' }" (click)="goToAudio()">
+        <ng-template pTemplate="header">
+            <img src="../../assets/image/bgaudio.png" alt="Google Drive Image">
+        </ng-template>
+        <p>
+            ஸ்ரீமத் பகவத் கீதை சமஸ்கிருத ஸ்லோகம் மற்றும் அதனுடைய தமிழ் மொழிபெயர்ப்பு என இரண்டையும் இந்த ஆடியோ பதிவில் கொடுத்துள்ளோம். தினமும் கேட்டு பகவானின் ஞானத்தை பெறுங்கள்
+        </p>
+        <ng-template pTemplate="footer">
+            <div class="flex gap-3 mt-1">
+               
+                <p-button label="கேளுங்கள்" class="w-full" styleClass="w-full" />
+            </div>
+        </ng-template>
+    </p-card>
+    <p-card header="உபன்யாசம்" subheader="Card Subheader" [style]="{ width: '360px' }">
+        <ng-template pTemplate="header">
+            <img src="../../assets/image/bgaudio.png" alt="Google Drive Image">
+        </ng-template>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+            quas!
+        </p>
+        <ng-template pTemplate="footer">
+            <div class="flex gap-3 mt-1">
+                <p-button label="Cancel" severity="secondary" class="w-full" styleClass="w-full" />
+                <p-button label="Save" class="w-full" styleClass="w-full" />
+            </div>
+        </ng-template>
+    </p-card>
+   
+    <p-card header="ஹரே கிருஷ்ண கீர்த்தனை" subheader="Card Subheader" [style]="{ width: '360px' }">
+        <ng-template pTemplate="header">
+            <img src="../../assets/image/bgaudio.png" alt="Google Drive Image">
+        </ng-template>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+            quas!
+        </p>
+        <ng-template pTemplate="footer">
+            <div class="flex gap-3 mt-1">
+                <p-button label="Cancel" severity="secondary" class="w-full" styleClass="w-full" />
+                <p-button label="Save" class="w-full" styleClass="w-full" />
+            </div>
+        </ng-template>
+    </p-card>
+    <p-card header="ஆரத்தி பாடல்கள்" subheader="Card Subheader" [style]="{ width: '360px' }">
+        <ng-template pTemplate="header">
+            <img src="../../assets/image/bgaudio.png" alt="Google Drive Image">
+        </ng-template>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+            quas!
+        </p>
+        <ng-template pTemplate="footer">
+            <div class="flex gap-3 mt-1">
+                <p-button label="Cancel" severity="secondary" class="w-full" styleClass="w-full" />
+                <p-button label="Save" class="w-full" styleClass="w-full" />
+            </div>
+        </ng-template>
+    </p-card>
+</div>
+
+<div *ngIf="bgaudio">
+    <div class="audio-list"> <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810152214451107?theme=image"
+        style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+</div>
+  <!-- Second audio -->
+  <div *ngIf="bgaudio"></div>
+    <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810160032867727?theme=image"
+        style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+  
+  <!-- Third audio -->
+  <div *ngIf="bgaudio">
+        <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810160389842236?theme=image"
+            style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+        </div>
+
+
+  <!-- Fourth audio -->
+
+  <div *ngIf="bgaudio">
+    <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810160571655058?theme=image"
+        style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+    
+    <!-- Fifth audio -->
+    <div *ngIf="bgaudio">
+        <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810160712210180?theme=image"
+            style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+        
+           <!-- Sixth audio -->
+           <div *ngIf="bgaudio">
+            <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810160896624221?theme=image"
+                style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+            
+            <!-- Seven audio -->
+            <div *ngIf="bgaudio">
+            <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810161041715950?theme=image"
+                style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+           
+             <!-- Eight audio -->
+             <div *ngIf="bgaudio">
+            <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810161118568044?theme=image"
+                style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+               <!-- Nine audio -->
+                <div *ngIf="bgaudio">
+                    <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810161142633292?theme=image"
+                        style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+                   
+         <!-- Ten audio -->
+         <div *ngIf="bgaudio">
+            <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810161163417858?theme=image"
+                style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+
+            <!-- Eleven audio -->
+         <div *ngIf="bgaudio">
+            <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810161181966513?theme=image"
+                style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+           
+                 <!-- Twelve audio -->
+         <div *ngIf="bgaudio">
+            <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810161194525860?theme=image"
+                style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+             <!-- Thirteen audio -->
+         <div *ngIf="bgaudio">
+            <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810161205771235?theme=image"
+            style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+             
+          <!-- Fourteen audio -->
+          <div *ngIf="bgaudio">
+            <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810161216139484?theme=image"
+            style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+    
+         <!-- Fifteen audio -->
+         <div *ngIf="bgaudio">
+            <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810161226073195?theme=image"
+            style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+        
+     <!-- sixteen audio -->
+     <div *ngIf="bgaudio">
+        <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810161235715319?theme=image"
+        style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+    
+     <!-- seventeen audio -->
+     <div *ngIf="bgaudio">
+        <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810161247800908?theme=image"
+        style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+      
+     <!-- eighteen audio -->
+     <div *ngIf="bgaudio">
+        <div class="flex gap-3 mt-1 bg"><iframe src="https://audio.com/embed/audio/1810161257024762?theme=image"
+        style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe><a href='https://audio.com/hare-krishna-tamil' style="text-align: center; display: block; color: #A4ABB6; font-size: 12px; font-family: sans-serif; line-height: 16px; margin-top: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">&#64;hare-krishna-tamil</a></div>
+     

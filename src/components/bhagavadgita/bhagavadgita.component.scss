@@ -21,7 +21,7 @@ h2{
 .one{
     background-color: #05154b;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     padding: 20px;
     margin: 20px;
     text-align: center;
@@ -179,14 +179,4 @@ h2{
     line-height: 1.6; /* Line spacing for readability */
     color: #160101;
 
-}
-
-
-@keyframes scroll-left {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
 }

@@ -1,6 +1,7 @@
-import { getLocaleMonthNames } from '@angular/common';
+import { CommonModule, DatePipe, getLocaleMonthNames } from '@angular/common';
 import { Component } from '@angular/core';
-
+import { FormsModule, NgModel, NgModelGroup } from '@angular/forms';
+import { CalendarModule } from 'primeng/calendar';
 interface YearlyEvent {
   month: string; 
   events: Event[];
@@ -13,11 +14,19 @@ interface Event {
 @Component({
   selector: 'app-events',
   standalone: true,
-  imports: [],
+  imports: [CalendarModule, FormsModule],
+  providers: [DatePipe],
   templateUrl: './events.component.html',
   styleUrl: './events.component.scss'
 })
 export class EventsComponent {
+  date1: Date | undefined;
+  monthNames = [
+    'January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December'
+  ];
+  now = new Date();
+ 
   
   yearlyEvents:  YearlyEvent[]= [
     {
@@ -33,10 +42,8 @@ export class EventsComponent {
       { date: '18-Sep-2024', name: 'Bhadra Purnima' },
       { date: '18-Sep-2024', name: 'Sri Visvarupa Mahotsava' },
       { date: '18-Sep-2024', name: 'The Beginning of the third month of Chaturmasya' },
-
     ]
   },
-  
   {
     month: 'October', 
     events:  [
@@ -73,7 +80,6 @@ export class EventsComponent {
       { date: '27-Oct-2024', name: 'Sri kaliya Krishnadasa Disappearance Day' },
       { date: '29-Oct-2024', name: 'Sri Saranga Thakura Disappearance Day' },
   ]
-
   },
   {
     month: 'December', 
@@ -85,7 +91,6 @@ export class EventsComponent {
       { date: '31-Dec-2024', name: 'Sri Locana Dasa Thakura Appearance Day' },
   ]
   },
-
   {
     month: 'January', 
     events:  [
@@ -96,10 +101,8 @@ export class EventsComponent {
       { date: '18-Jan-2025', name: 'Srila Gopala Bhatta Gosvami Appearance Day' },
       { date: '20-Jan-2025', name: 'Sri Jayadeva Gosvami disapearance Day' },
       { date: '21-Jan-2025', name: 'Sri Locana Dasa Thakura Disapearance Day' },
-      
   ]
   },
-
   {
     month: 'Febuary', 
     events:  [
@@ -119,8 +122,6 @@ export class EventsComponent {
       { date: '25-Feb-2025', name: 'Sri Isvara Puri Disppearance Day' },
       { date: '28-Feb-2025', name: 'Sri Jagannatha Dasa Babaji Disppearance Day' },
       { date: '28-Feb-2025', name: 'Sri Rasikananda Disppearance Day' },
-
-
   ]
   },
   {
@@ -204,6 +205,19 @@ export class EventsComponent {
    
   ]
 },
-  ]
+  ];
+  currentDate!: string | null;
+  currentMonthObj: YearlyEvent[] = [];
+  currentMonth: string = '';
+  constructor(private datePipe: DatePipe) {}
+  ngOnInit(): void {  
+
+    console.log('date1 :', this.date1);
+      const now = new Date();
+    this.currentMonth = this.monthNames[now.getMonth()];
+
+      this.currentMonthObj = this.yearlyEvents.filter((obj) => obj.month === this.currentMonth);
+      
+  }
 }
  

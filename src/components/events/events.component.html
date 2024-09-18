@@ -1,12 +1,21 @@
-<p class="upcoming">Upcoming Events...</p>
+<p class="upcoming">Upcoming Events...</p> 
 
+<div>
+
+    <label for="buttondisplay" class="font-bold block mb-2"> Button </label>
+    <p-calendar 
+    [(ngModel)]="date1"
+    [showIcon]="true" 
+    inputId="buttondisplay" 
+    [showOnFocus]="false" />
+</div>
 <article>
     <header>
-        <h1>September - 2024</h1>
+        <h1>{{ currentMonth }} - 2024</h1>
     </header>
     <section class="p-6">
         <div class="container mx-auto">
-            @for (year of yearlyEvents; track $index) {
+            @for (year of currentMonthObj; track $index) {
 
     
           <h2 class="text-2xl font-bold mb-4">{{ year.month }} Month Events</h2>

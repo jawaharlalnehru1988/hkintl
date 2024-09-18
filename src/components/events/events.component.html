@@ -6,16 +6,20 @@
     </header>
     <section class="p-6">
         <div class="container mx-auto">
-          <h2 class="text-2xl font-bold mb-4">September Events</h2>
+            @for (year of yearlyEvents; track $index) {
+
+    
+          <h2 class="text-2xl font-bold mb-4">{{ year.month }} Month Events</h2>
           <div class="grid grid-cols-1 gap-4">
-            @for (item of events; track $index) {
+            @for (event of year.events; track $index) {
 
                 <div class="flex justify-between items-center p-4 bg-gray-100 rounded">
-                    <span class="text-lg font-semibold">{{ item.date }}</span>
-                    <span class="text-lg">{{ item.name }}</span>
+                    <span class="text-lg font-semibold">{{ event.date }}</span>
+                    <span class="text-lg">{{ event.name }}</span>
                 </div>
             }
           </div>
+        }
         </div>
       </section>
       

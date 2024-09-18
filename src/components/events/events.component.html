@@ -2,35 +2,61 @@
 
 <article>
     <header>
-        <h1>Understanding Ekadasi</h1>
+        <h1>September - 2024</h1>
     </header>
+    <section class="p-6">
+        <div class="container mx-auto">
+          <h2 class="text-2xl font-bold mb-4">September Events</h2>
+          <div class="grid grid-cols-1 gap-4">
+            @for (item of events; track $index) {
+
+                <div class="flex justify-between items-center p-4 bg-gray-100 rounded">
+                    <span class="text-lg font-semibold">{{ item.date }}</span>
+                    <span class="text-lg">{{ item.name }}</span>
+                </div>
+            }
+          </div>
+        </div>
+      </section>
+      
+      
     
-    <section class="introduction">
-        <h2>What is Ekadasi?</h2>
-        <p>Ekadasi is a significant day observed by Hindus, dedicated to Lord Vishnu. It occurs twice a month, on the 11th day of each lunar fortnight in the Hindu calendar. The day is marked by fasting and spiritual practices.</p>
-    </section>
-    
-    <section class="significance">
-        <h2>Significance of Ekadasi</h2>
-        <p>Ekadasi is considered an auspicious day for spiritual growth and self-discipline. Observing Ekadasi is believed to bring peace, prosperity, and liberation from the cycle of birth and death.</p>
-        <ul>
-            <li><strong>Spiritual Benefits:</strong> It is a day for deep meditation and reflection.</li>
-            <li><strong>Health Benefits:</strong> Fasting can detoxify the body and improve health.</li>
-            <li><strong>Cultural Importance:</strong> It strengthens devotion and religious practice.</li>
-        </ul>
-    </section>
-    
-    <section class="rituals">
-        <h2>Rituals and Practices</h2>
-        <p>On Ekadasi, devotees observe fasting which may involve consuming only fruits and milk or completely abstaining from food and water. Special prayers and rituals are performed to honor Lord Vishnu.</p>
-        <ol>
-            <li>Perform morning rituals and prayers.</li>
-            <li>Attend temple services or engage in devotional singing and chanting.</li>
-            <li>Break the fast the following day after sunrise with a simple meal.</li>
-        </ol>
-    </section>
-    
-    <footer>
-        <p>For more information about Hindu festivals and practices, visit <a href="https://www.hindupedia.com" target="_blank">Hindupedia</a>.</p>
-    </footer>
+    <div class="relative overflow-hidden border-4 border-blue-500 rounded-lg bg-gradient-to-r from-purple-400 to-blue-400 p-4 shadow-md">
+        <div class="animate-scroll whitespace-nowrap text-white text-lg font-bold tracking-wider">
+            For more information about Vaishnava festivals and practices, Please Whatsapp +91 6382043976 .
+        </div>
+      </div>
+      <footer class="bg-gray-800 mt-6 text-white p-6">
+        <div class="container mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Contacts Section -->
+            <div>
+              <h2 class="text-xl font-bold mb-4">Contacts</h2>
+              <ul>
+                <li>Email: harekrishnatamil&#64;gmail.com</li>
+                <li>Phone1: +91 6382043976</li>
+                <li>Phone2: +91 8678977163</li>
+                <li>WhatsApp: +91 6382043976</li>
+              </ul>
+            </div>
+            <!-- Social Media Section -->
+            <div>
+              <h2 class="text-xl font-bold mb-4">Social Media</h2>
+              <ul>
+                <li><a href="https://instagram.com" class="hover:underline">Instagram</a></li>
+                <li><a href="https://whatsapp.com" class="hover:underline">WhatsApp Group</a></li>
+                <li><a href="https://youtube.com" class="hover:underline">YouTube</a></li>
+                <li><a href="https://facebook.com" class="hover:underline">Facebook</a></li>
+              </ul>
+            </div>
+            <!-- Other Websites Section -->
+            <div>
+              <h2 class="text-xl font-bold mb-4">Other Websites</h2>
+              <ul>
+                <li><a href="https://ram.com" class="hover:underline">ram.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>      
 </article>

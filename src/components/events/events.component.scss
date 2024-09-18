@@ -74,27 +74,21 @@ section {
     }
 }
 
-footer {
-    background-color: $secondary-color;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-
-    a {
-        color: white;
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-}
-
 .upcoming{
     margin: 12px;
     font-weight: 900;
     font-size: x-large;
 }
+
+.animate-scroll {
+    animation: scroll-left 20s linear infinite;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }

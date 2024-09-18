@@ -5,7 +5,7 @@
             <div class="col-lg-4">
                 <p-button pButton severity="help" class="w-100" pRipple (click)="previousPage()" [disabled]="currentPage === 1"
                     >
-                    {{ articles[currentPage-2]?.title ?? '0'}} {{" \<-Pre"}}
+                    {{ articles[currentPage-2].title? articles[currentPage-2].title : '0'}} {{" \<-Pre"}}
                 </p-button>
             </div>
     

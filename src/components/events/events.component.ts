@@ -217,7 +217,7 @@ export class EventsComponent {
     this.currentMonth = this.monthNames[now.getMonth()];
 
       this.currentMonthObj = this.yearlyEvents.filter((obj) => obj.month === this.currentMonth);
-      
+   
   }
 }
- 
+
